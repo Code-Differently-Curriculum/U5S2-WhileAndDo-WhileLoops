@@ -1,6 +1,6 @@
-package partB.ex02;
+package partC.ex01;
 
-public class WhileLoopDemoExample {
+public class WhileLoopExample {
     public static void main(String[] args) {
         int num = 0;
         System.out.println("Let's count to 10!");

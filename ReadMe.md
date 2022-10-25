@@ -2,6 +2,7 @@
 
 * Part A - Foundations 6.2
 * Part B - Foundations Practice
+* Part C - Foundations Practice cont..
 
 ## Part A
 
@@ -100,3 +101,71 @@ Your program is working correctly, if when run, the following is the output:
 ```
 
 > Use WhileLoopDemoExample for reference.
+
+## Part C
+
+### Exercise 01
+
+#### Step 01
+
+In the package `partC.ex01` complete the `WhileLoop1` class so that it accepts an input called stop, and counts from 0 to the value of stop.
+
+Your program is working correctly, if when run, the following is the output.
+
+> Use WhileLoopExample for reference.
+
+```
+Please enter a number to count to: 
+8
+The Current Number is :0
+The Current Number is :1
+The Current Number is :2
+The Current Number is :3
+The Current Number is :4
+The Current Number is :5
+The Current Number is :6
+The Current Number is :7
+We are done
+```
+
+### Exercise 02
+
+#### Step 01
+
+In the package `partC.ex02` look at the file `WhileLoopExample2` and write comments for each line of code. When complete review with instructor.
+
+#### Step 02
+
+In the package `partC.ex02` complete the `WhileLoop2` class so that it accepts an input called value, performs the arithmetic and saves it to sum, as long as the input number is NOT 0.
+If the input is 0, the program should print out the Sum of the integers and exit.
+
+Your program is working correctly, if when run, the following is the output.
+
+> Use WhileLoopExample2 for reference.
+
+```
+Enter first integer (enter 0 to quit): 2
+Enter next integer (enter 0 to quit): 3
+Enter next integer (enter 0 to quit): 5
+Enter next integer (enter 0 to quit): 0
+Sum of the integers: 10
+Terminating the program.
+```
+
+### Exercise 03
+
+#### Step 01
+
+In the package `partC.ex03` look at the file `DoWhileLoopExample` and write comments for each line of code. When complete review with instructor.
+
+#### Step 02
+
+In the package `partC.ex03` complete the `DoWhileLoop` class so that you print out only the EVEN numbers from 0 to 20.
+
+Your program is working correctly, if when run, the following is the output.
+
+> Use DoWhileLoopExample for reference.
+
+```
+ 1 3 5 7 9 11 13 15 17 19
+```
