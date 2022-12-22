@@ -2,7 +2,7 @@
 
 * Part A - Foundations 6.2
 * Part B - Foundations Practice
-* Part C - Foundations Practice cont..
+* Part C - Algorithm Challenge
 
 ## Part A
 
@@ -18,6 +18,9 @@ In the package `partA.ex01` modify `SquareRootWhile` per the following:
 
         Use a while loop to repeatedly prompt users to type a number until they type a non negative number. 
         If they type a non negative number, then compute the square root.
+
+#### Step 03
+ * Use the value 11 and run the unit tests 
 
 Your program is working correctly, if when run, the following is the output:
 ```
@@ -41,6 +44,14 @@ sequence of 10 integers that are input by the user.
 * Can you implement the same by using a do-while loop?
 * If the answer is yes, try it out!
 
+* Use the value 11 and run the unit tests
+
+Your program is working correctly, if when run, the following is the output:
+```
+
+The square root of 11 is 3.166
+```
+
 
 ## Part B
 
@@ -52,7 +63,7 @@ In the package `partB.ex01` look at the file `DoWhileLoopDemoExample` and write 
 
 #### Step 02
 
-In the package `partB.ex01` complete the `DoWhileLoop` per the following:
+In the package `partB.ex01` complete the `DoWhileLoop1` per the following:
 
     Create a program that has an array of integers with five unique values
     Utilize a do/while loop to print out each of the unique elements of the array
@@ -65,6 +76,17 @@ Your program is working correctly, if when run, the following is the output:
 91
 105
 ```
+#### Step 03
+
+In the package `partB.ex01` complete the `DoWhileLoop2` class so that you print out only the EVEN numbers from 0 to 20.
+
+Your program is working correctly, if when run, the following is the output.
+
+> Use DoWhileLoopExample for reference.
+
+```
+ 1 3 5 7 9 11 13 15 17 19
+```
 
 > Use DoWhileLoopDemoExample for reference.
 
@@ -76,7 +98,7 @@ In the package `partB.ex02` look at the file `WhileLoopDemoExample` and write co
 
 #### Step 02
 
-In the package `partB.ex02` complete the `WhileLoop` per the following:
+In the package `partB.ex02` complete the `WhileLoop1` per the following:
 
     Create a program that loops through numbers - beginning at 1 and up to 1,000
     As the program loops through each number, it should print out all of the even values
@@ -100,19 +122,12 @@ Your program is working correctly, if when run, the following is the output:
 1000 is even
 ```
 
-> Use WhileLoopDemoExample for reference.
+#### Step 03
 
-## Part C
-
-### Exercise 01
-
-#### Step 01
-
-In the package `partC.ex01` complete the `WhileLoop1` class so that it accepts an input called stop, and counts from 0 to the value of stop.
+In the package `partB.ex03` complete the `WhileLoop2` class so that it accepts an input called stop, and counts from 0 to the value of stop.
 
 Your program is working correctly, if when run, the following is the output.
 
-> Use WhileLoopExample for reference.
 
 ```
 Please enter a number to count to: 
@@ -128,44 +143,33 @@ The Current Number is :7
 We are done
 ```
 
-### Exercise 02
+> Use WhileLoopDemoExample for reference.
 
-#### Step 01
+## Part C
+### Problem 1
+Looking at your math worksheet, your given 2 number values of either positive or negative.
+Evaluate a problem and find out if one of those numbers is positive and the other is negative.
 
-In the package `partC.ex02` look at the file `WhileLoopExample2` and write comments for each line of code. When complete review with instructor.
+Return true if one is negative and one is positive.
 
-#### Step 02
+An exception to this is if the parameter "negative" is true, then only return true if both are negative.
 
-In the package `partC.ex02` complete the `WhileLoop2` class so that it accepts an input called value, performs the arithmetic and saves it to sum, as long as the input number is NOT 0.
-If the input is 0, the program should print out the Sum of the integers and exit.
-
-Your program is working correctly, if when run, the following is the output.
-
-> Use WhileLoopExample2 for reference.
-
+Example:
+```java
+checkPosOrNeg(1, -1, false) --> true
+checkPosOrNeg(-1, 1, false) --> true
+checkPosOrNeg(-4, -5, true) --> true
 ```
-Enter first integer (enter 0 to quit): 2
-Enter next integer (enter 0 to quit): 3
-Enter next integer (enter 0 to quit): 5
-Enter next integer (enter 0 to quit): 0
-Sum of the integers: 10
-Terminating the program.
+### Problem 2
+With the provided string, you need to exchange the first and last characters to create a new string.
+
+Return the new string.
+
+Example:
+```java
+exchange("code") --> "eodc
+exchange("a") --> "a"
+exchange("ab") --> "ba"
 ```
 
-### Exercise 03
 
-#### Step 01
-
-In the package `partC.ex03` look at the file `DoWhileLoopExample` and write comments for each line of code. When complete review with instructor.
-
-#### Step 02
-
-In the package `partC.ex03` complete the `DoWhileLoop` class so that you print out only the EVEN numbers from 0 to 20.
-
-Your program is working correctly, if when run, the following is the output.
-
-> Use DoWhileLoopExample for reference.
-
-```
- 1 3 5 7 9 11 13 15 17 19
-```

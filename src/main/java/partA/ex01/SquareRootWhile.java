@@ -3,11 +3,14 @@ package partA.ex01;
 import java.util.Scanner;
 
 public class SquareRootWhile {
-    public static void main(String args[])
-    {
-        System.out.print("Type a non-negative integer: ");
-        Scanner console = new Scanner(System.in);
-        int number = console.nextInt();
+    public static String squareRoot(){
+        String response = "";
+
+        return response;
+    }
+    public static void main(String args[]) {
+        String outputSquareRoot = squareRoot();
+        System.out.println(outputSquareRoot);
 
     }
 }

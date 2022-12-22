@@ -1,13 +1,25 @@
 package partB.ex02;
 
 public class WhileLoopDemoExample {
-    public static void main(String[] args) {
+
+    public static String whileLoop(){
+        String response = "";
+
         int num = 0;
-        System.out.println("Let's count to 10!");
+        response += ("Let's count to 10!");
         while(num > 10){
             num = num + 1;
-            System.out.println("Number: " + num);
+            response += ("Number: " + num);
         }
-        System.out.println("We have counted to 10! Hurrah!");
+        response += ("We have counted to 10! Hurrah!");
+
+        return response;
+
     }
+    public static void main(String[] args) {
+        String outputWhileLoop = whileLoop();
+        System.out.println(outputWhileLoop);
+    }
+
+
 }
